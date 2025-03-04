@@ -1,7 +1,7 @@
 package fr.devavance.tp_springboot_mvc_jpa.controllers;
 
 import ch.qos.logback.core.model.Model;
-import fr.devavance.tp_springboot_mvc_jpa.beans.Employee;
+import fr.devavance.tp_springboot_mvc_jpa.entity.Employee;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

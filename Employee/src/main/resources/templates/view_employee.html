@@ -7,12 +7,28 @@
 <body>
 <h2>Fiche employée</h2>
 
-<p><a href="/">Home</a></p>
-<p>Nom : </p><p th:text="${employee.name}"></p>
-<p>Adresse : </p><p th:text="${employee.address}"></p>
-<p>Courriel : </p><p th:text="${employee.email}"></p>
-<p>Téléphone : </p><p th:text="${employee.phone}"></p>
-<p>Fonction : </p><p th:text="${employee.fonction}"></p>
+<table>
 
+    <tr>
+        <td>Nom</td>
+        <td th:text="${employee.name}"></td>
+    </tr>
+    <tr>
+        <td>Adresse</td>
+        <td th:text="${employee.address}"></td>
+    </tr>
+    <tr>
+        <td>email</td>
+        <td th:text="${employee.email}"></td>
+    </tr>
+    <tr>
+        <td>Téléphone</td>
+        <td th:text="${employee.phone}"></td>
+    </tr>
+    <tr>
+        <td>Fonction</td>
+        <td th:text="${employee.fonction}"></td>
+    </tr>
+</table>
 </body>
 </html>
